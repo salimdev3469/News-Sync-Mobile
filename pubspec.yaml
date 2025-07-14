@@ -1,0 +1,50 @@
+name: news_sync_mobile
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  workmanager: 0.8.0
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+  cached_network_image: ^3.3.1
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.7
+  intl: ^0.19.0
+  http: ^1.2.1
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+
+  flutter_tts: 4.2.3
+  share_plus: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/appBarLogo.png
+    - assets/appBarLogoDark.png
+    - assets/cover.jpg
+    - assets/news.png
+
+flutter_icons:
+  android: true
+  image_path: "assets/news.png"
+  min_sdk_android: 21
+

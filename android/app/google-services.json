@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457471987870",
+    "project_id": "news-sync-mobile",
+    "storage_bucket": "news-sync-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457471987870:android:a79821f1ae3658680dab8f",
+        "android_client_info": {
+          "package_name": "com.example.news_sync_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgCIvcJr2sclyfVkhzTYA4gz_9eHeWfu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
